@@ -17,7 +17,7 @@ public class Review {
     @GeneratedValue
     private Long id;
 
-    private String UserName;
+    private String userName;
     private Long restaurantId;
     private String review;
 
