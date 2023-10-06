@@ -12,19 +12,18 @@ import javax.persistence.Id;
 @Getter
 @Setter
 @RequiredArgsConstructor
-public class User {
+public class Review {
     @Id
     @GeneratedValue
     private Long id;
 
-    private String displayName;
+    private String UserName;
+    private Long restaurantId;
+    private String review;
 
-    private String city;
-    private String state;
-    private String zipCode;
+    private Integer peanutScore;
+    private Integer dairyScore;
+    private Integer eggScore;
 
-    private Boolean peanutWatch;
-    private Boolean dairyWatch;
-    private Boolean eggWatch;
+   
 }
-
