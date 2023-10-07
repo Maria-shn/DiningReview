@@ -11,6 +11,6 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface ReviewRepository extends CrudRepository<Review, Long> {
     List<Review> findReviewsByRestaurantIdAndUserName(Long restaurantId, String userName);
-    List<Review> findReviewsByRestaurantIdAnd(Long restaurantId);
+    List<Review> findReviewsByRestaurantId(Long restaurantId);
 }
 
