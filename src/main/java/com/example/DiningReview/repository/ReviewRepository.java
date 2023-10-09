@@ -5,8 +5,7 @@ import org.springframework.data.repository.CrudRepository;
 import com.example.DiningReview.entities.Review;
 
 import java.util.List;
-
-import org.springframework.data.repository.CrudRepository;
+//import org.springframework.data.repository.CrudRepository;
 
 
 public interface ReviewRepository extends CrudRepository<Review, Long> {
